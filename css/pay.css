@@ -1,0 +1,93 @@
+.TQ {
+    border          : 1px solid burlywoods;
+    background-color: #ccc;
+    padding         : 50px 0;
+    display         : flex;
+    flex-wrap       : wrap;
+    gap             : 2rem;
+    width           : 100%;
+    margin-right    : 30px;
+    border-radius   : 30px;
+    margin-top      : 20px;
+    justify-content : center;
+}
+
+.noidungtongquat {
+    background-color: rgb(34, 39, 39);
+}
+
+
+
+.T1 table {
+    margin          : 0 auto;
+    padding         : 10px;
+    border-radius   : 20px;
+    box-shadow      : 0 2px 5px rgba(0, 0, 0, 0.1);
+    border          : 1px solid #C9E4D6;
+    border-width    : 10px;
+    box-shadow      : #ccc;
+    background-color: #F19373;
+    height          : 40%;
+    color           : white;
+    white-space     : nowrap;
+    text-align      : 50% left;
+    font-size       : 15px;
+    margin-top      : 10px;
+    width           : 400px;
+
+}
+
+
+.ck table {
+    border          : 1px;
+    height          : 120px;
+    border-radius   : 30px;
+    width           : 120px;
+    margin-left     : 100px;
+    margin-top      : 40px;
+    white-space     : nowrap;
+    float           : left;
+    background-color: #E6E6FA;
+    text-align      : center;
+    padding         : 10px;
+    color           : #333;
+}
+
+.order-item table {
+    justify-content : space-between;
+    border          : 1px solid black;
+    padding         : 20px;
+    color           : black;
+    background-color: #AFD788;
+    margin-left     : 350px;
+    margin-top      : 20px;
+    margin-bottom   : 20px;
+    border-radius   : 20px;
+}
+
+.T1 a {
+    color           : #3a9ec5;
+    font-size       : 16px;
+    border          : 1px solid burlywood;
+    background-color: rgb(232, 233, 224);
+    text-decoration : none;
+    padding         : 5px;
+}
+
+.ck table a {
+    color           : #e2e3e4;
+    font-size       : 16px;
+    border          : 1px solid burlywood;
+    background-color: rgb(13, 129, 81);
+    text-decoration : none;
+    padding         : 3px;
+}
+
+.order-item table a {
+    color           : #3a9ec5;
+    font-size       : 16px;
+    border          : 1px solid burlywood;
+    background-color: rgb(232, 233, 224);
+    text-decoration : none;
+    padding         : 3px;
+}

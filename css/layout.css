@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    border: none;
+    vertical-align: top;
+}
+body {
+    background-color: #333;
+    margin: 20px auto;
+    color: #fff;
+}
+
+
+/* Cài đặt chung cho phần Menu */
+#menu{
+    background-color: #0a0a0a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 12 50px;
+    height: 60px;
+    align-items: center;
+}
+.mLeft{
+    flex: 1;
+}
+.mLeft img{
+    padding-left: 80px;
+    width: 26%;
+    height: 100%;  
+}
+.mRight{
+    flex: 2;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#menu ul li{
+    display: inline-block;
+    margin: 0 8px;
+}
+.mRight ul.mType{
+    background-color: #0a0a0a;
+    position: absolute;
+    padding: 20px 0;
+    width: 400px;
+    text-align: left;
+    display: none;
+}
+.subMenu {
+    width: 150px;
+    margin: 0 10px;
+}
+.mRight li:hover ul.mType{
+    display: block;
+}
+.mRight a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.mRight a:hover {
+    color: #8b87c6;
+}
+.searchBox {
+    position: relative;
+    width: 40%;
+    background-color: #fff;
+    height: 30px;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden; 
+}
+.searchBox input{
+    flex: 1; 
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    padding: 1%;
+    text-indent: 10px;
+    font-size: 18px;
+    outline: none;
+}
+#searchIcon{
+    position: relative;
+    font-size: 22px;
+    color: rgb(114, 114, 114);
+    cursor: pointer;
+    z-index: 221;
+}
+.searchBox .searchButton {
+    width: 60px;
+    height: 100%;
+    background-color: #fff;
+    border: none;
+}
+
+
+/* Cài đặt chung cho phần Footer */
+#footer {
+    clear: both;
+    background-color: #030303;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.lFooter, .rFooter {
+    display: inline-block;
+    vertical-align: top;
+}
+.lFooter p img {
+    height: 50px;
+    width: 30%;
+    margin: 12px;
+}
+.lFooter p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.lFooter p:last-child {
+    margin-bottom: 0;
+}
+.rFooter {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.rFooter1, .rFooter2, .rFooter3, .rFooter4 {
+    flex: 1;
+    margin: 0 10px;
+}
+.rFooter1 li, .rFooter2 li, .rFooter3 li {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.rFooter1 a, .rFooter2 a, .rFooter3 a, .rFooter4 a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.rFooter1 a:hover, .rFooter2 a:hover, .rFooter3 a:hover, .rFooter4 a:hover {
+    color: #8b87c6;
+}
+
+
+
+
+

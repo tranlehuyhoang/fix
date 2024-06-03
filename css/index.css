@@ -1,0 +1,163 @@
+
+.tphim1 ul {
+    display: flex;
+    list-style: none;
+}
+.tphim1 img{
+    border: 1px solid black;
+    width: 150px;
+    height: 200px;
+}
+.tphim1 li{
+    margin-left: 10px;
+    width: 150px;
+    word-wrap: break-word;
+    margin: auto;
+}
+.tphim1 a{
+    color: #ff9249;
+}
+.tphim1 p{
+    color: white;
+}
+
+.tphim2 ul {
+    display: flex;
+    list-style: none;
+}
+.tphim2 img{
+    border: 1px solid black;
+    width: 150px;
+    height: 200px;
+}
+.tphim2 li{
+    margin-left: 10px;
+    width: 150px;
+    word-wrap: break-word;
+    margin: auto;
+}
+.tphim2 a{
+    color: #ff9249;
+}
+.tphim2 p{
+    color: white;
+}
+
+.tphim3 ul {
+    display: flex;
+    list-style: none;
+}
+.tphim3 img{
+    border: 1px solid black;
+    width: 150px;
+    height: 200px;
+}
+.tphim3 li{
+    margin-left: 10px;
+    width: 150px;
+    word-wrap: break-word;
+    margin: auto;
+}
+.tphim3 a{
+    color: #ff9249;
+}
+.tphim3 p{
+    color: white;
+}
+
+.tphim4 ul {
+    display: flex;
+    list-style: none;
+}
+.tphim4 img{
+    border: 1px solid black;
+    width: 150px;
+    height: 200px;
+}
+.tphim4 li{
+    margin-left: 10px;
+    width: 150px;
+    word-wrap: break-word;
+    margin: auto;
+}
+.tphim4 a{
+    color: #ff9249;
+}
+.tphim4 p{
+    color: white;
+}
+
+.tphim5 ul {
+    display: flex;
+    list-style: none;
+}
+.tphim5 img{
+    border: 1px solid black;
+    width: 150px;
+    height: 200px;
+}
+.tphim5 li{
+    margin-left: 10px;
+    width: 150px;
+    word-wrap: break-word;
+    margin: auto;
+}
+.tphim5 a{
+    color: #ff9249;
+}
+.tphim5 p{
+    color: white;
+}
+
+#content{
+    background-color: #333;
+    float: left;
+    width: 76.6%;
+    border: 1px solid #a3a2a3;
+}
+#content h3{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+#sidebar {
+    float: right;
+    width: 18%;
+    padding: 20px; 
+    border: 1px solid #ddd;
+    border-bottom: 10px;
+}
+#sidebar ul {
+    background-color: rgb(21, 21, 24);
+    border: 1px solid #ddd;
+    padding: 10px;
+    align-items: center;
+}
+#sidebar img {
+    float: left;
+    width: 35%;
+    margin-right: 10px;
+}
+#sidebar li {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#sidebar p, #sidebar a{
+    margin-top: 35px;
+}
+#sidebar p{
+    font-size: 14px;
+    color: white;
+}
+#sidebar a{
+    font-size: 16px;
+    color: #ff9249;
+}
+
+
+
+
+
+

@@ -1,0 +1,221 @@
+/* Cài đặt chung cho phần Content Movie */
+#content-movie {
+    clear: both;
+    float: left;
+    width: 70%;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    padding: 20px;
+    color: #fff;
+}
+#content-movie h3{
+    font-size: 24;
+}
+.detail-movie {
+    width: 100%;
+    display: flex;
+}
+.dLeft-movie {
+    margin-top: 13px;
+    width: 45%;
+    margin-bottom: 15px;
+    background-color: rgb(21, 21, 24);
+}
+.dLeft-movie a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.dLeft-movie a:hover{
+    color: #8b87c6;
+}
+.dLeft-movie img {
+    display: block;
+    width: 80%;
+    height: 79%;
+    margin: auto;
+    margin-top: 25px;
+}
+.button-list-movie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-list-movie li {
+    margin: 5px;
+    margin-top: 40px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    width: 49%;
+    background-color: #851515;
+}  
+.dRight-movie {
+    margin-top: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    background-color: rgb(21, 21, 24);
+}
+.detail-movie ul {
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+.movie {
+    margin-top: 13px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    text-align: left;
+    color: #ff9249;
+    font-size: 25px;
+}
+.detail-movie h5{
+    margin-bottom: 10px;
+    margin-left: 30px;
+    font-size: 22px;
+}
+.detail-movie p {
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 4px;
+    font-size: 17px;
+    color: #fff;
+}
+.dRight-movie p {
+    padding-top: 6px;
+    line-height: 1.5;
+}
+
+.cFilm-movie{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(21, 21, 24);
+}
+.cFilm-movie h4{
+    text-align: left;
+    color: #ff9249;
+    font-size: 20px;
+}
+.cFilm-movie p{
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+.comment-movie{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    background-color: rgb(21, 21, 24);
+}
+.comment-movie h4{
+    color: #ff9249;
+    text-align: left;
+    font-size: 20px;
+}
+.comment-movie input{
+    width: 80%;
+}
+#content-watch {
+    clear: both;
+    float: left;
+    width: 70%;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    padding: 20px;
+    color: #fff;
+}
+
+.view-watch{
+    margin-top: 20px;
+    margin-left: 50%;
+    
+}
+.player-watch{
+    width: 880px; 
+    height: 500px;
+    justify-content: space-between;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    background: transparent;
+}
+.player-watch poster{
+    width: 700px;
+    height: 10px;
+}
+
+
+.recommend-movie{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+.recommend-movie h4{
+    text-align: left;
+    color: #ff9249;
+    font-size: 20px;
+}
+.recommend-movie ul{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+}
+.recommend-movie img{
+    width: 150px;
+    height: 220px;
+}
+.recommend-movie li{
+    width: 150px;
+    word-wrap: break-word;
+    margin-right: 40px;
+}
+.recommend-movie a{
+    font-size: 16px;
+    color: #ff9249;
+    text-align: justify;
+}
+.recommend-movie p{
+    font-size: 14px;
+    color: white;
+}
+
+
+/* Cài đặt chung cho phần Sidebar */
+#sidebar-movie {
+    float: right;
+    width: 20%;
+    border: 1px solid #ddd;
+    padding: 20px; 
+}
+#sidebar-movie ul {
+    background-color: rgb(21, 21, 24);
+    border: 1px solid #ddd;
+    padding: 10px;
+    align-items: center;
+}
+#sidebar-movie img {
+    float: left;
+    width: 35%;
+    margin-right: 10px;
+}
+#sidebar-movie li {
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+#sidebar-movie h4{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 0px;
+}
+#sidebar-movie p{
+    font-size: 14px;
+    color: white;
+    text-align: left;
+}
+#sidebar-movie li a{
+    font-size: 16px;
+    color: #ff9249;
+}

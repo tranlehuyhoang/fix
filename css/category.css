@@ -1,0 +1,136 @@
+
+/* Menu chính */
+.content-category{
+    clear: both;
+    padding-top: 60px;
+}
+.content-category h4 {
+    margin: 10px 0; /* Khoảng cách 10px trên và dưới */
+}
+
+
+.lcontent-category{
+    float: left;
+    width: 14%;
+    background-color: #292929; /* Màu nền menu */
+    border-radius: 10px; /* Tất cả các góc bo tròn 10px */
+    position: relative; /* Cho phép định vị các phần tử con tuyệt đối */
+    border: 3px solid #ccc; /* Đường viền cho menu */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 30px;
+}
+.lcontent-category h4{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.lcontent-category a{
+    font-size: 17px;
+    margin-left: 40px;
+}
+.lcontent-category a:hover{
+    background-color: #ff9249;
+    color: #fff;
+}
+.theoyc{
+    clear: both;
+    font-size: 35px;
+    text-align: center;
+}
+.trangchu{
+    font-size: 25px;
+    margin-left: 35px;
+}
+
+
+.rcontent-categoty{
+    float: right;
+    width: 70%;
+}
+.rcontent-category{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Tạo 4 cột */
+    grid-template-rows: repeat(3, 1fr); /* Tạo 4 hàng */
+    margin: 0; /* Xóa khoảng cách mặc định do `margin` tạo ra */
+}
+.movie-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+  
+.movie-item li {
+    width: 75%;
+    margin: 0 10px;
+    padding: 10px;
+}
+.movie-item li img {
+    width: 100%;
+    height: 270px;
+}
+.movie-item a{
+    font-size: 19px;
+    color: #ff9249;
+    text-align: justify;
+}
+.movie-item li p {
+    font-size: 17px;
+    margin-top: 10px;
+    color: white;
+}
+
+
+/* Kiểu cho hộp chứa phân trang */
+.pagination {
+    clear: both;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px; /* Tạo góc cong cho phân trang */
+    margin-bottom: 10px;
+    margin-left: 165%;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #f4f4f4;
+    color: #333;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.pagination a:active,
+.pagination a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+#theoyc {
+    margin-top: 50px;
+    font-size: 30px; /* Kích thước chữ 20 pixel */
+    margin-bottom: -150px;
+
+}
+#theoyc li a {
+    text-decoration: none; /* Xóa bỏ gạch chân */
+    color: orange;
+    margin-left: 550px;
+}
+
+
+.no-movies-found {
+  margin-right: -550px;
+  text-align: center; /* Center the text */
+  font-style: italic; /* Add some emphasis */
+  color: white; /* Use a muted gray color */
+  margin-top: -30px; /* Add some space above the message */
+}
+
+
